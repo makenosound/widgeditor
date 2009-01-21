@@ -1,0 +1,25 @@
+widgEditor Text Formatter
+------------------------------------
+
+Version: 0.1
+Author: Max Wheeler (max@makenosound.com)
+Build Date: 21st Jan 2009
+Requirements: Symphony 2
+
+Makes Cameron Adams’ [widgEditor](code.google.com/p/widgeditor/) available as a text formatter.
+
+[INSTALLATION]
+
+1. Upload the 'widgeditor' folder in this archive to your Symphony 'extensions' folder.
+
+2. Enable it at System > Extensions.
+
+3. Go to Blueprints > Sections.
+
+4. Edit/Create a section and specify the text formatter "widgEditor"
+   for the textarea fields you wish to enable it for.
+
+[CUSTOMISATION]
+
+You can specify which formatting controls appear by modifying lines 101-138 of
+/lib/scripts/widgEditor.js.
